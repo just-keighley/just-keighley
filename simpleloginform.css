@@ -1,0 +1,76 @@
+body{:
+    background-image: url(background-jpg);
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 50px;
+}
+
+main{
+    border: none;
+    width: 50%;
+    margin: auto;
+    background-image: url(craiyon.com);
+}
+
+header h1{
+    text-align: centre;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#my_form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    border: none;
+    margin: auto;
+    border-radius: 40px;
+}
+#items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#acct{
+    font-size: small;
+    text-align: center;
+}
+
+#reg{
+    text-decoration: none;
+}
+
+#input{
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.login_txt{
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: small;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+.login{
+    background: none;
+}
+#item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
